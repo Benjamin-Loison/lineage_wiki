@@ -5,7 +5,7 @@ permalink: libvirt-qemu.html
 ---
 
 {% include alerts/warning.html content="The following `virtio_*` build targets are not officially supported and are maintained by individual LineageOS maintainers. Due to this, unlike Cuttlefish/Emulator/AVD which is guaranteed to function when built, `virtio_*` build targets carry no such guarantee." %}
-{% include alerts/warning.html content="None of the `virtio_*` build targets are built by LineageOS build servers, and no OTA updates will be delivered to builds of these targets. As such, you must build all images and update the builds manually." %}
+{% include alerts/note.html content="If it meets your needs, you can download a weekly [x86-64](https://download.lineageos.org/devices/virtio_x86_64/builds), [ARM-64](https://download.lineageos.org/devices/virtio_arm64/builds) or [ARM-64-only](https://download.lineageos.org/devices/virtio_arm64only/builds) build instead of compiling one." %}
 
 ## Known issues
 
