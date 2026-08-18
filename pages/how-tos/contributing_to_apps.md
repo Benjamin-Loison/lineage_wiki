@@ -11,7 +11,7 @@ If you would like to contribute to LineageOS, but are unable to set up a develop
 
 ## Which apps?
 
-The following apps can be built with Gradle seperate from the main codebase.
+The following apps can be built with Gradle separate from the main codebase.
 
 {%- capture content %}If an app is not listed here, it can't be built with Gradle, and will need to be built with the entire codebase as described in the build section of [your device]({{ "devices/" | relative_url }}).{% endcapture %}
 {% include alerts/note.html content=content %}
